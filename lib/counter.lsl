@@ -24,7 +24,7 @@ default {
     llOwnerSay("I was last touched by " + last_touched_by);
 
     last_touched_by = llDetectedName(0);
-    llLoadURL(llDetectedKey(0), "Cylence Web Design", "http://cylenceweb.com");
+    llLoadURL(llDetectedKey(0), "Cylence, Inc.", "http://cylence.com");
   }
 
 }
